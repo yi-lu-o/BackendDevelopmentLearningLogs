@@ -1031,3 +1031,44 @@ char 与 varchar 都可以描述字符串，char是定长字符串，指定长�
 #### 批量删除员工功能开发
 
 出现错误后，将报错信息ctrl c/v到csdn上得到了解决
+
+## 10月25日 周三
+
+### 开发talis-web-management系统新增员工功能
+
+开发新增员工功能的工作并不困难，重要的是学会了使用第三方服务：将图片上传到阿里云服务器。
+
+### 开发talis-web-management系统修改员工信息功能
+
+#### yml配置文件
+
+yml文件中常见的数据格式。在这里我们主要介绍最为常见的两类：
+
+1. 定义对象或Map集合
+2. 定义数组、list或set集合
+
+对象/Map集合
+
+```yml
+user:
+  name: zhangsan
+  age: 18
+  password: 123456
+```
+
+数组/List/Set集合
+
+```yml
+hobby: 
+  - java
+  - game
+  - sport
+```
+
+#### @ConfigurationProperties
+
+直接将配置文件中配置项的值自动的注入到对象的属性中。
+![Alt text](image.png)
+
+### 登录功能开发
+

@@ -359,3 +359,51 @@ SpringCloud中的注册中心：Eureka，其结构如下：
 ### Eureka Demo
 
 跑通了Demo案例，由于无线鼠标没有电了，所以决定今天的学习先到这里！！！
+
+## 11月15日 周三
+
+### Eureka服务注册
+
+跟着视频、文档教程，实现服务注册Demo
+
+### Ribbon负载均衡
+
+SpringCloudRibbon的底层采用了一个拦截器，拦截了RestTemplate发出的请求，对地址做了修改。用一幅图来总结一下：
+
+![image-20210713224724673](images/image-20210713224724673.png)
+
+
+
+基本流程如下：
+
+- 拦截我们的RestTemplate请求http://userservice/user/1
+- RibbonLoadBalancerClient会从请求url中获取服务名称，也就是user-service
+- DynamicServerListLoadBalancer根据user-service到eureka拉取服务列表
+- eureka返回列表，localhost:8081、localhost:8082
+- IRule利用内置负载均衡规则，从列表中选择一个，例如localhost:8081
+- RibbonLoadBalancerClient修改请求地址，用localhost:8081替代userservice，得到http://localhost:8081/user/1，发起真实请求
+
+### Nacos
+
+Nacos是SpringCloudAlibaba的组件，而SpringCloudAlibaba也遵循SpringCloud中定义的服务注册、服务发现规范。因此使用Nacos和使用Eureka对于微服务来说，并没有太大区别。
+
+主要差异在于：
+
+- 依赖不同
+- 服务地址不同
+
+### Bug记录
+
+安装完Nacos后，无法启动需要调用Nacos服务的OrderApplication和UserApplication
+
+对照视频后，还是没有发现Bug所在，于是决定先放下这个Bug
+
+### Nacos配置管理
+
+当微服务部署的实例越来越多，达到数十、数百时，逐个修改微服务配置就会让人抓狂，而且很容易出错。我们需要一种统一配置管理方案，可以集中管理所有实例的配置。
+
+![image-20210714164426792](images/image-20210714164426792.png)
+
+
+
+Nacos一方面可以将配置集中管理，另一方可以在配置变更时，及时通知微服务，实现配置的热更新。

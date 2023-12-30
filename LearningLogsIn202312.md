@@ -73,3 +73,27 @@
 
 1. 通过csdn博客文章`winError 123错误的解决`（链接：http://t.csdnimg.cn/ctjWW）解决了今天的`问题记录1`
 2. 通过csdn博客文章`fatal: unable to access ‘https://github.com/.git/‘: Failed to conne拒绝连接`（链接：http://t.csdnimg.cn/iFl1C）解决了遗留了很久的问题`问题记录2`，下班！！！下班！！！
+
+## 12月30日 周六
+
+### 深度学习框架 Pytorch的学习
+
+![image-20231230150324272](images/image-20231230150324272.png)
+
+### 进入环境及使用Pytorch
+
+![image-20231230152539267](images/image-20231230152539267.png)
+
+![image-20231230153753167](images/image-20231230153753167.png)
+
+### 更改jupyter notebook的工作目录
+
+看csdn博客`Jupyter Notebooks的安装和使用介绍`(链接：http://t.csdnimg.cn/h6OVd)
+
+### 使用插件`iLink网络加速器`访问github
+
+`iLink网络加速器`插件非常好用，但是却导致本地git仓库无法推送到github上
+
+![image-20231230183730112](images/image-20231230183730112.png)
+
+解决过程：csdn博客`fatal: unable to connect to github.com:github.com[0: 20.205.243.166]: errno=Unknown error`(链接：http://t.csdnimg.cn/kdvxu)解决了这个问题

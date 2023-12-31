@@ -97,3 +97,14 @@
 ![image-20231230183730112](images/image-20231230183730112.png)
 
 解决过程：csdn博客`fatal: unable to connect to github.com:github.com[0: 20.205.243.166]: errno=Unknown error`(链接：http://t.csdnimg.cn/kdvxu)解决了这个问题
+
+### 将Github上的仓库备份迁移到Gitee上
+
+![image-20231230232840911](images/image-20231230232840911.png)
+
+通过迁移到gitee来下载github上的源码文件，顺便将github上的仓库备份迁移到gitee仓库上
+
+## 12月31日 周日
+
+1. 读知识星球编程导航社区文章
+2. 明确了2024年自己的技术发展方向：后端和算法

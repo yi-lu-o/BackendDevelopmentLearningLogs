@@ -1,3 +1,5 @@
+
+
 # 2024年1月后端开发学习日志
 
 ## 1月1日 周一
@@ -24,3 +26,26 @@
 大佬的GitHub学习笔记：[AccumulateMore/CV: ✔（已完结）最全面的 深度学习 笔记【土堆 Pytorch】【李沐 动手学深度学习】【吴恩达 深度学习】 (github.com)](https://github.com/AccumulateMore/CV)
 
 充分利用网络资源进行学习
+
+## 1月11日 周四
+
+1. 学习深度学习框架pytorch
+
+## 1月12日 周五
+
+1. 早上，课kaggle入门课程(https://www.bilibili.com/cheese/play/ss3488?bsource=link_copy),约1.5h
+2. 中午，下午，继续看kaggle入门课程,约1.5h
+### 数据竞赛介绍
+![image-20240112140242260](images/image-20240112140242260.png)
+### Kaggle前置知识
+![image-20240112143307250](images/image-20240112143307250.png)，![image-20240112143337749](images/image-20240112143337749.png)，
+### kaggle比赛类别
+![image-20240112143725174](images/image-20240112143725174.png)
+
+### Kaggle排位机制
+
+![image-20240112144304355](images/image-20240112144304355.png)
+
+### kaggle常用功能
+
+![image-20240112144419385](images/image-20240112144419385.png)

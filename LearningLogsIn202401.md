@@ -35,6 +35,7 @@
 
 1. 早上，课kaggle入门课程(https://www.bilibili.com/cheese/play/ss3488?bsource=link_copy),约1.5h
 2. 中午，下午，继续看kaggle入门课程,约1.5h
+2. 晚上，继续看kaggle入门课程，约1.5h
 ### 数据竞赛介绍
 ![image-20240112140242260](images/image-20240112140242260.png)
 ### Kaggle前置知识
@@ -49,3 +50,15 @@
 ### kaggle常用功能
 
 ![image-20240112144419385](images/image-20240112144419385.png)
+
+## 1月13日 周五
+
+### Python学习
+
+#### Python性能
+
+![image-20240113092955933](images/image-20240113092955933.png)
+
+### 进度记录
+
+晚上，完成了Kaggle网站`Intro to Programming`课程
